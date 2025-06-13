@@ -99,3 +99,7 @@ _note: If you want, you may now close the web page as we got all the credentials
   php artisan serve
   ```
 #### 5. If it says `No connection could be made because the target machine actively refused it` then you probably forgot to turn on your database.
+
+## Need help?
+- Ask on [our forums](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/discussions/1).
+- Search my [ChatGPT conversation of trying to get it to work](https://chatgpt.com/share/684beaf0-dc14-800c-80de-7ccac783d860) for reference.
