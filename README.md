@@ -65,16 +65,16 @@ _note: If you want, you may now close the web page as we got all the credentials
 - Does the error mention some code you wrote?
   - Is there a mismatch in capital letters, like an import of a file `Test.txt` even though the file is named `test.txt`?
   - Your code may have bugs, below is an explanation of howt you can run it yourself
-#### 3. Run you code yourself
-1. Open your laravel project in your favorite code editor (you may use [VScode](https://code.visualstudio.com/)).
-2. Run the commands below one by one to build and deploy your app
+### 3. Run the code yourself
+#### 1. Open your laravel project in your favorite code editor (you may use [VScode](https://code.visualstudio.com/)).
+#### 2. Run the commands below one by one to build and deploy your app
   ```sh
   composer install
   npm install
   npm run build
   cp .env.example .env
   ```
-3. Edit the `.env` file you just generated and add the database credentials from your text document right below line 27 that says `DB_USERNAME=root`.
+#### 3. Edit the `.env` file you just generated and add the database credentials from your text document right below line 27 that says `DB_USERNAME=root`.
   - If you instead want to use a database on your own computer then you should follow the instructions below, otherwise continue with step 4
     1. [install XAMMP](https://www.apachefriends.org/download.html) and paste the databsase credentials below in your `.env` file
       ```.env
@@ -92,10 +92,10 @@ _note: If you want, you may now close the web page as we got all the credentials
         4. Click `New` on the top left to create a new schema, name it `mydatabase`
         5. Open Apache's admin
         6. read the [laravel exam guide](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/laravel-exam-guide.md) for more details.
-4. Continue with running the commands below
+#### 4. Continue with running the commands below
   ```sh
   php artisan key:generate
   php artisan migrate:fresh --seed
   php artisan serve
   ```
-5. If it says `No connection could be made because the target machine actively refused it` then you probably forgot to turn on your database.
+#### 5. If it says `No connection could be made because the target machine actively refused it` then you probably forgot to turn on your database.
