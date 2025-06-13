@@ -16,10 +16,10 @@ _Note: if one of these files already exists on your repository then you should r
 ### 4. Fill in the folowing details
 | Field | Value | Notes |
 |---|---|---|
-| Name | `my-great-databse` | Or anything you like |
+| Name | `my-great-database` | Or anything you like |
 | Database | `mydatabase` | Has to be this |
 | User | `root` | Has to be this |
-| Region | `Frankfurt (EU Central)` | Or whereever is nearest to your users |
+| Region | `Frankfurt (EU Central)` | Or where ever is nearest to your users |
 | PostgreSQL Version | `16` | Is what I used, but you may use another one |
 | Plan Options | `Free` | Only if you like free |
 ### 5. Click `Create Database`
@@ -54,13 +54,13 @@ _note: If you want, you may now close the web page as we got all the credentials
 ### 6. Add environment Variables
 1. CLick `Add from .env`
 2. Paste the text from the text document you filled in
-3. Click Add variables
+3. Click `Add variables`
 ### 7. Click `Deploy Web Service`
 
 ## Debug
 ### 1. Wait for your web service to deploy
 ### 2. What if an error occurs?
-#### 1. Ask ChatGPT: tell them that this is a laravel site deployed on Render.com, and send the error to them.
+#### 1. Ask ChatGPT: tell it that this is a laravel site deployed on Render.com, and send the error to it.
 #### 2. Look yourself
 - Does the error mention some code you wrote?
   - Is there a mismatch in capital letters, like an import of a file `Test.txt` even though the file is named `test.txt`?
