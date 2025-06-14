@@ -67,7 +67,7 @@ _note: If you want, you may now close the web page as we got all the credentials
 #### 2. Look yourself
 - Does the error mention some code you wrote?
   - Is there a mismatch in capital letters, like an import of a file `Test.txt` even though the file is named `test.txt`?
-  - Your code may have bugs, below is an explanation of howt you can run it yourself
+  - Your code may have bugs, below is an explanation of how you can run it yourself
 ### 3. Run the code yourself
 #### 1. Open your laravel project in your favorite code editor (you may use [VScode](https://code.visualstudio.com/)).
 #### 2. Run the commands below one by one to build and deploy your app
