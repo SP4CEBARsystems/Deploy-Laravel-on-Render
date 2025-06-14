@@ -57,7 +57,7 @@ _note: If you want, you may now close the web page as we got all the credentials
 1. CLick `Add from .env`
 2. Paste the text from the text document you filled in
 3. Click `Add variables`
-4. Modify the `APP_URL` to replace the `your-site-name` with the site name you copied from the `Name` field on top op this page.
+4. Modify the `APP_URL` to replace the `your-site-name` with the site name you copied from the `Name` field on top of this page.
 ### 7. Click `Deploy Web Service`
 
 ## Debug
