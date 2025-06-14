@@ -33,7 +33,7 @@ DB_PASSWORD=
 ```
 _note: the remaining environment variables can be found in the [.env.example file](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/.env.example) I provided_
 ### 7. Copy the details below from your new database's page next to the same name in your text document
-| On Render | In Document | Notes |
+| On Render | In Document |
 |---|---|
 | Hostname | DB_HOST=`your_hostname_here` |
 | Port | DB_PORT=`your_port_number_here` |
