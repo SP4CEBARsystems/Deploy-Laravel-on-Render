@@ -3,7 +3,7 @@
 ## Prerequisites
 - This guide expects you to have a [laravel app](https://laravel.com/docs/12.x/installation) on a [github repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)._
 
-## Commit the files below to the root (uppermost folder) of your laravel app github repository.
+## [Stage](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit) and [push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) the files below to the root (uppermost folder) of your laravel app github repository.
 - [.env.example](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/.env.example)
 - [Dockerfile](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/Dockerfile)
 - [apache/000-default.conf](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/tree/main/apache)
@@ -63,7 +63,7 @@ _note: If you want, you may now close the web page as we got all the credentials
 ## Debug
 ### 1. Wait for your web service to deploy
 ### 2. What if an error occurs?
-#### 1. Ask ChatGPT: tell it that this is a laravel site deployed on Render.com, and send the error to it.
+#### 1. Ask ChatGPT: tell it that this is a laravel site deployed on Render.com, and send the error to it, as well as the [.env.example](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/.env.example), [Dockerfile](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/Dockerfile), and [apache/000-default.conf](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/tree/main/apache) files so it knows exactly what you are doing.
 #### 2. Look yourself
 - Does the error mention some code you wrote?
   - Is there a mismatch in capital letters, like an import of a file `Test.txt` even though the file is named `test.txt`?
