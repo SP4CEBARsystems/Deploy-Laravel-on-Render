@@ -1,7 +1,8 @@
 # Guide to Deploy Laravel on Render
 
 ## Prerequisites
-- This guide expects you to have a [laravel app](https://laravel.com/docs/12.x/installation) on a [github repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)._
+- This guide expects you to have a [laravel app](https://laravel.com/docs/12.x/installation) on a [github repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
+- Git must be installed and configured on your PC, [here's how](https://docs.github.com/en/get-started/git-basics/set-up-git#setting-up-git).
 
 ## [Stage](https://github.com/git-guides/git-add), [Commit](https://github.com/git-guides/git-commit) and [push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) the files below to the root (uppermost folder) of your laravel app github repository.
 - [.env.example](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/.env.example)
