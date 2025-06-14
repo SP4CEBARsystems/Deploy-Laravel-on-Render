@@ -39,7 +39,7 @@ _note: the remaining environment variables can be found in the [.env.example fil
 | Port | DB_PORT=`your_port_number_here` |
 | Password | DB_PASSWORD=`your_password_here` |
   
-_note: It it important to never leak your credentials by, for example, committing them to a public github repository, in this guide we will avoid that._
+_note: It it important to never leak your credentials by, for example, committing them to a public github repository, in this guide we will avoid that._  
 _note: If you want, you may now close the web page as we got all the credentials we need._
 ## Create a `Web Service`
 ### 1. Go to your [Render Dashboard](https://dashboard.render.com/)
