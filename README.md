@@ -6,6 +6,7 @@
 ## Commit the files below to the root (uppermost folder) of your laravel app github repository.
 - [.env.example](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/.env.example)
 - [Dockerfile](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/Dockerfile)
+- [apache/000-default.conf](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/tree/main/apache)
   
 _Note: if one of these files already exists on your repository then you should replace them_
 
@@ -25,13 +26,14 @@ _Note: if one of these files already exists on your repository then you should r
 ### 5. Click `Create Database`
 ### 6. Create a text document (or note) on your PC or phone and copy the text below into it. Don't close your database web page.
 ```.env
+APP_URL=https://your-site-name.onrender.com/
 DB_HOST=
 DB_PORT=5432
 DB_PASSWORD=
 ```
 _note: the remaining environment variables can be found in the [.env.example file](https://github.com/SP4CEBARsystems/Deploy-Laravel-on-Render/blob/main/.env.example) I provided_
 ### 7. Copy the details below from your new database's page next to the same name in your text document
-| On Render | In Document |
+| On Render | In Document | Notes |
 |---|---|
 | Hostname | DB_HOST=`your_hostname_here` |
 | Port | DB_PORT=`your_port_number_here` |
@@ -47,7 +49,7 @@ _note: If you want, you may now close the web page as we got all the credentials
 ### 5. Fill in the folowing details
 | Field | Value | Notes |
 |---|---|---|
-| Name | `my-great-app` | Or anything you like |
+| Name | `my-great-app` | Or anything you like, be sure to copy it as this will be part of the url |
 | Language | `Docker` | Has to be this |
 | Instance Type | `Free` | Only if you like free |
 | Dockerfile Path | `./Dockerfile` | Has to be this |
@@ -55,6 +57,7 @@ _note: If you want, you may now close the web page as we got all the credentials
 1. CLick `Add from .env`
 2. Paste the text from the text document you filled in
 3. Click `Add variables`
+4. Modify the `APP_URL` to replace the `your-site-name` with the site name you copied from the `Name` field on top op this page.
 ### 7. Click `Deploy Web Service`
 
 ## Debug
