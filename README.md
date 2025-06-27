@@ -52,6 +52,7 @@ _note: If you want, you may now close the web page as we got all the credentials
 |---|---|---|
 | Name | `my-great-app` | Or anything you like, be sure to copy it as this will be part of the url |
 | Language | `Docker` | Has to be this |
+| Branch | `Main` | Choose the branch on your GitHub that you want to deploy |
 | Instance Type | `Free` | Only if you like free |
 | Dockerfile Path | `./Dockerfile` | Has to be this |
 ### 6. Add environment Variables
