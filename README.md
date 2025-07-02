@@ -1,5 +1,8 @@
 # Guide to Deploy Laravel on Render
 
+## Disclaimer
+This guide has been prepared with care to assist in the deployment of web applications. However, it remains the responsibility of the user to ensure that their specific implementation meets appropriate security standards. No liability can be accepted for any vulnerabilities, misconfigurations, or damages resulting from the use or misuse of this guide.
+
 ## Prerequisites
 - This guide expects you to have a [laravel app](https://laravel.com/docs/12.x/installation) on a [github repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
 - Git must be installed and configured on your PC, [here's how](https://docs.github.com/en/get-started/git-basics/set-up-git#setting-up-git).
